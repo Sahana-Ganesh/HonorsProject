@@ -3,7 +3,8 @@
 1. Create and activate virtual environment:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
+# On Windows: venv\Scripts\activate
 ```
 
 2. Install dependencies:
@@ -15,7 +16,7 @@ npm install
 ### Setup
 1. After cloning this repository, open 2 terminals. Make sure you are in the frame-select/backend folder in one and in the other make sure you are in the frame-select/frontend folder. 
 
- In the terminal with the backend folder, run the backend starting commmand:
+In the terminal with the backend folder, run the backend starting commmand:
 
 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 
